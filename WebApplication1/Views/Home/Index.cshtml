@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<WebApplication1.Models.Contact>
+
+<h1 class="text-center header">All Contacts</h1>
+
+@* <ul class="main-container"> *@
+@*     @foreach (Contact contact in Model) *@
+@*     { *@
+@*         <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">  *@
+@*             <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>  *@
+@*             <p class="name">Name: @contact.Name</p> *@
+@*             <p class="surname">Surname:  @contact.Surname</p>  *@
+@*         </li> *@
+@*     } *@
+@* </ul> *@
+
+<ul class="main-container"> 
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'"> 
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/> 
+        <p class="name">Mirvari </p> 
+        <p class="surname">Muradova </p> 
+    </li>
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>
+        <p class="name">Zahra </p>
+        <p class="surname">Malikzada </p>
+    </li>
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>
+        <p class="name">Name: </p>
+        <p class="surname">Surname: </p>
+    </li>
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>
+        <p class="name">Name: </p>
+        <p class="surname">Surname: </p>
+    </li>
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>
+        <p class="name">Name: </p>
+        <p class="surname">Surname: </p>
+    </li>
+    <li class="item" onclick="window.location.href = '@Url.Action("Info", "Info")'">
+        <img class="image" src="https://www.freeiconspng.com/uploads/head-icon-png-5.png"/>
+        <p class="name">Name: </p>
+        <p class="surname">Surname: </p>
+    </li>
+</ul>
